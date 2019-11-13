@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XBBNetworking_Example' do
+  pod 'XBBNetworking', :path => '../'
+
+  target 'XBBNetworking_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
