@@ -1,0 +1,6 @@
+framework module XBBNetworking {
+  umbrella header "XBBNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
